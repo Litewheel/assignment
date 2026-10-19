@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon link -->
+    <link rel="icon" href="../images/icon.jpeg" type="image/x-icon">
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Pikkalat</title>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+
+        <!-- logo section -->
+        <div class="logo">
+        <img src="../images/image.jpeg" alt="logo" >
+        </div>
+
+        <!-- navigation section -->
+        <nav class="nav-list">
+            <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#services">Services</a></li>
+           <li><a href="#contact">Contact</a></li>
+           <li><a href="#blog">Blog</a></li>
+           <li><a href="#product">Product</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <section id="home">
+            <img src="../images/pikklat.jpg">
+            <div class="hero-content">
+            <h1>Pikkalat </h1>
+            <p >The Tech skill brand you can trust</p>
+    </div>>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We teach high-in demand courses skills to our students and  they are affordable and accessible to everyone. Our courses are offered to our students with the highest quality teaching technology and are backed by our team of experienced professionals. We are committed to providing our students with the best possible experience and are always looking for new ways to improve our services.Also, we have trained tutors who are specialized in this various fields of our listed courses to put our students through courses difficulty. They are always on sit to attend to the students needs , they are easily accessible and friendly .</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of tech courses that are designed to meet the needs of our customers. Our courses are  high-in demand across the world and are backed by our team of experienced professionals. We are committed to providing our students with the best possible experience and are always looking for new ways to improve our delivery and services.We have a serene environment which is conducive for learning and development.We have available accommodation for our students coming from afar to stay and with standard infrastrutures for the duration of the courses of your choice which is affordable and accessible to everyone.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We are always happy to hear from our customers and are available to answer any questions they may have. You can contact us through our website and registering through the form space below.  We look forward to hearing from you!</p>
+       <!-- form section -->
+            <form aria-label="input your details below">
+            <h3><i>Contact Information</i></h3>
+            <div>
+                <label for="firstName" aria-label="Type your firstName">First Name</label>
+                <input type="text" name="FirstName" placeholder="Type here..">
+            </div>
+            <div>
+                <label for="middleName"aria-label="Type your middleName">Middle Name</label>
+                <input type="text" name="MiddleName" placeholder="Type here..">
+            </div>
+             <div>
+                <label for="lastName"aria-label="Type your lastName">Last Name</label>
+                <input type="text" name="LastName" placeholder="Type here..">
+            </div>
+             
+             <div>
+                <label for="userName"aria-label="Type your usertName">User Name</label>
+                <input type="text" name="UserName" placeholder="Type here...">
+            </div>
+             <div>
+                <label for="password"aria-label="Type your password">Password</label>
+                <input type="password" name="password" placeholder="********">
+            </div>
+             <div>
+                <label for="age"aria-label="Type your age">Age</label>
+                <input type="number" name="age" >
+            </div>
+             <div>
+                <label for="email"aria-label="Type your email" >Email</label>
+                <input type="email" name="email" placeholder="id@example.com">
+            </div>
+             <div>
+                <label for="profileimage"aria-label="input your profileimage">Upload pic</label>
+                <input type="file" name="profile" accept=".jpg, .jpeg, .png">
+            </div>
+             <div>
+                <label for="phoneNumber"aria-label="Type your phoneNumber">Phone Number</label>
+                <input type="tel" name="phoneNumber">
+            </div>
+             <div>
+                <label for="date of birth"aria-label="select your date of birth">Date of Birth</label>
+                <input type="date" name="date of birth">
+            </div>
+            <div class="radio">
+            <label aria-label="select your gender">Gender :</label>
+            &nbsp;
+                <label for="male">
+                <input type="radio" name="sex" value="Male">
+                Male</label>
+                <label for="female" >
+                <input type="radio" name="sex" value="Female">Female</label>
+            </div>
+            
+             <div class="checkbox">
+                <label>Tech savvy</label>
+                &nbsp;
+                <label for="tech">
+                <input type="checkbox" name="tech" value="Yes">Yes</label>
+                &nbsp;
+                <label for="tech">
+                <input type="checkbox" name="tech" value="No">No</label>
+            </div>
+             <div>
+                <label for="courses" aria-label="select your courses">Courses</label>
+                <select name="courses" >
+                 <option value="">..Please select here..</option>
+                <option value="SE">Software Engineering</option>
+                 <option value="UI/UX">UI/UX Design</option>
+                  <option value="DL">Digital Literacy</option>
+                   <option value="DM">Digital Marketing</option>
+                    <option value="CS">CyberSecurity</option>
+                     <option value="Java">Java</option>
+                      <option value="Python">Python</option>
+                       <option value="VA">Virtual Assistant</option>
+                        <option value="CC">Content Creation</option>
+                         <option value="GD">Graphic Design</option>
+                          <option value="AI">AI Learning</option>
+                           <option value="WD">Web Design</option>
+                            <option value="DE">DevOps Engineering</option>
+                             <option value="DS">Data Science</option>
+                              <option value="DA">Data Analysis</option>
+                             
+           </select>
+            </div>
+             <div>
+                <label for="duration"aria-label="select your duration">Period in months</label>
+                <input type="range" name="month" min="3" step="1"value="1" max="12">
+            </div>
+            <div>
+                <label for="Bio"aria-label="Type your Bio">Bio</label>
+                <textarea name="text" rows="5" cols="40" placeholder="tell us about yourself....."></textarea>
+            </div>
+            <button class="btn"aria-label="submit your details">Submit</button>
+        </form>
+        </section>
+    </main>
+
+    <!-- footer section -->
+     <footer>
+        <p>Visit us for more enquires at Oba Anfani way, mozidatun Bertanya, Benin City, Nigeria . Where more information and educational advices can be given out to our customers and students </p>
+        <p> &copy: All rights reserved by Pikkalat 2023. </p>
+     </footer>
+
+    
+</body>
+</html>

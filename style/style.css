@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    height: 75px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-list {
+    display: flex;
+   justify-content: space-between;
+    margin-left: auto;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-list ul li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-list ul li a {
+    color: #67bca4;
+    text-decoration: none;
+}
+
+.nav-list ul li a:hover {
+    color: #dac448;
+}
+#home {
+    text-align: center;
+    padding: 10px;
+    color: #0d0f0e; 
+}
+
+#home img {
+    width: 100%;
+    height: 30%;
+    opacity: 0.5;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%)
+}
+
+.hero-content p{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #06180f;
+}
+
+#about, #services, #contact {
+    scroll-margin-top: 80px;
+}
+
+#about h2, #services h2 ,#contact h2{ 
+    font-size: 30px;
+    text-align: center;
+    color: #67bca4;
+}
+
+#about p, #services p, #contact p {
+    margin-left: 5px;
+    line-height: 1.5;
+}
+
+form {
+    background-color: #67bca4;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 400px ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(235, 224, 224, 0.93);
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+
+form >div{
+    display: flex;
+     align-items: center;
+     margin-bottom: 15px;
+     j
+}
+
+
+form > h3 {
+    color: #333;
+    text-align: center;
+    font-size:  1.5rem;
+    margin-bottom: 8px;
+    font-family: inherit;
+}
+
+label {
+   width: 130px; //*controls the gap between label and input field*/
+   font-size: 1.1rem; /* Set the font size of the label*/
+   flex-shrink: 0;
+}
+
+input, textarea {
+    margin-bottom: 8px;
+    outline: none;
+    border-radius: 6px;
+    flex-grow: 1; /*This will make the input field take up all the available space*/
+}
+
+/*This will style the input field for file button*/
+
+input[type="file"]::file-selector-button {
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-left: 4px; /*This will add some space between the input field and the file button*/
+}
+
+input[type="file"]::file-selector-button:hover {
+    cursor: pointer;
+    background-color: #67bca4;
+    color: #fff;
+}
+
+textarea {
+    resize: vertical; /* This will make the textarea resizeable when the user resizes the browser window*/
+}
+
+.radio, .checkbox {
+    display: flex;
+   align-items: center;
+   gap: 2px;  /* This will add some space between the radio buttons and the text*/
+   cursor: pointer;
+}
+
+/* input [type="date"]::-webkit-calendar-picker-indicator { */
+    /* filter: invert(53%) sepia(24%) saturate(608%) hue-rotate(97deg) brightness(91%) contrast(85%); */
+    /* cursor: pointer; */
+/* } */
+
+.btn {
+    width: 150px;
+    height: 40px;
+   margin: auto;
+    display: flex;
+    color: #f3ebeb;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: #67bca4;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: #333;
+    background-color: #fff;
+}
+
+footer{
+    background-color: #67bca4;
+    margin-top: 10px;
+}
+
+footer > p {
+    line-height: 1.5rem;
+    margin-left: 15px;
+    font-size: 1rem;
+}
+
+footer >p:last-child{
+    text-align: center;
+}
+
+
+ 
